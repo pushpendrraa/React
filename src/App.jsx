@@ -1,16 +1,11 @@
-import React, { useState } from 'react'
-import Student from './Student'
+import React from 'react'
+import List from './List'
 
 function App() {
-   
   return (
-
- <>
-  <Student name="pushpendra" age={"21"} isstudent={true}/>
-  <Student/>
-  
-  </>
-    
+      
+  <List/>
+      
   );
 }
 
